@@ -193,7 +193,7 @@ const displayDetailsButton = (data) => {
     <p class="font-medium">${data.sentence}</p>
     <h1 class="text-xl font-bold">সমার্থক শব্দ গুলো</h1>
 
-    <div class="flex mt-2">
+    <div class="flex flex-wrap mt-2">
     
     ${
       data.synonyms.length < 1
